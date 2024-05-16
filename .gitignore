@@ -1,0 +1,31 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+node_modules
+server/node_modules
+server/package-lock.json
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+/.vs/slnx.sqlite
+/.vs/sandy-site/FileContentIndex/read.lock
+/.vs/sandy-site/FileContentIndex/a41aeecf-8f81-49d5-9c51-6af5ec6d6728.vsidx
+/.vs/sandy-site/FileContentIndex/6feff3f0-80e7-4d2a-b758-4ed8928ac62d.vsidx
+/.vs/sandy-site/FileContentIndex/0fb6005f-f474-4ca5-9e82-9dd8d3467713.vsidx
+/.vs/sandy-site/FileContentIndex/51a49e7f-d3d5-453f-ab30-78ac6acad65a.vsidx
